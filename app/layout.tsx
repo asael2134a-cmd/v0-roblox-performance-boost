@@ -5,8 +5,8 @@ import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
+  title: 'Roblox Performance Optimizer',
+  description: 'Mejora el rendimiento de Roblox con FFlags optimizadas para PCs de bajos recursos',
   generator: 'v0.app',
   icons: {
     icon: [
