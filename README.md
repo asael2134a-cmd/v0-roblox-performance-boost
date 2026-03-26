@@ -1,30 +1,26 @@
-# Roblox performance boost
+# Roblox Performance Boost
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+Configuracion de FFlags para mejorar el rendimiento de Roblox en PCs de bajos recursos.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/mulcampeca-gmailcoms-projects/v0-roblox-performance-boost)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/AEsI76LTMS8)
+## Instalacion
 
-## Overview
+1. Descarga el archivo `ClientAppSettings.json`
+2. Abre el Explorador de archivos y ve a:
+   ```
+   %localappdata%\Roblox\Versions
+   ```
+3. Entra a la carpeta que empiece con `version-`
+4. Crea una carpeta llamada `ClientSettings` (si no existe)
+5. Pega el archivo `ClientAppSettings.json` dentro
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+## Que hace
 
-## Deployment
+- Desactiva sombras y efectos de luz
+- Reduce calidad de texturas
+- Desactiva particulas y efectos especiales
+- Desactiva telemetria
+- Optimiza el uso de CPU y GPU
 
-Your project is live at:
+## Revertir cambios
 
-**[https://vercel.com/mulcampeca-gmailcoms-projects/v0-roblox-performance-boost](https://vercel.com/mulcampeca-gmailcoms-projects/v0-roblox-performance-boost)**
-
-## Build your app
-
-Continue building your app on:
-
-**[https://v0.app/chat/AEsI76LTMS8](https://v0.app/chat/AEsI76LTMS8)**
-
-## How It Works
-
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+Elimina la carpeta `ClientSettings` para volver a la configuracion original.
